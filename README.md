@@ -44,7 +44,7 @@ The [original wiki](https://github.com/aamiaa/Data-Package-Tool/wiki) covers the
 cargo build --release
 ```
 
-The binary ends up in `target/release`. Rust 1.75 or newer should work.
+The binary ends up in `target/release`. Rust 1.87 or newer is needed.
 
 ## License
 
