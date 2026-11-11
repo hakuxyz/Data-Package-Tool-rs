@@ -7,7 +7,7 @@ description = "Browse the contents of a Discord data package"
 # This is a Rust rewrite of it.
 
 [dependencies]
-eframe = { version = "0.37", default-features = false, features = ["default_fonts", "glow", "x11", "wayland"] }
+eframe = { version = "0.37", default-features = false, features = ["default_fonts", "glow", "x11", "wayland", "clipboard", "links"] }
 egui = "0.37"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
