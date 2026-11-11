@@ -1,0 +1,12 @@
+/target
+/debug
+/release
+
+# cargo output noise
+**/*.rs.bk
+
+# editor and os junk
+.idea/
+.vscode/
+*.swp
+.DS_Store
